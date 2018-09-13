@@ -6,6 +6,7 @@ public class FirstLastName {
 		// TODO Auto-generated method stub
 System.out.print("Leah");
 System.out.println("Cape");
+
 	}
 
 }
