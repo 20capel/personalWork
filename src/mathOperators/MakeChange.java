@@ -24,7 +24,7 @@ change%=0.05;
 pennies=change/0.01;
 change%=0.01;
 
-System.out.println("You will need "+(int)dollars+" dollars, "+(int)quarters+" quarters, "+(int)dimes+" dimes, "+(int)nickels+" nickels, and "+(int)Math.ceil(pennies)+" pennies.");
+System.out.println("You will need "+(int)dollars+" dollars, "+(int)quarters+" quarters, "+(int)dimes+" dimes, "+(int)nickels+" nickels, and "+(int)Math.round(pennies)+" pennies.");
 input.close();
 	}
 
