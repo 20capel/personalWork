@@ -4,10 +4,12 @@ public class RoomTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Room wallArea = new Room();
-		wallArea.area();
-		Room newWallArea = new Room();
-		newWallArea.areaWithDoor();
+		Room closet=new Room();
+		Room kitchen=new Room();
+		kitchen=closet;
+		Room basement=new Room();
+		closet=basement;
+		closet.area();
 	}
 
 }
