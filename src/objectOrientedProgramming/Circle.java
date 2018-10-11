@@ -13,6 +13,7 @@ public class Circle {
 
 	public void setRadius(double nowRadius) {
 		radius = nowRadius;
+		//why do you need to setRadius if that's what you're doing in the block above?
 	}
 
 	public double getRadius() {
