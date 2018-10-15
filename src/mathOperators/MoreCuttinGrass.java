@@ -23,7 +23,7 @@ speedMower=input.nextDouble();
 speedMower=speedMower/63360;
 length=length*12;
 width=width*12;
-time=(width/widthMower)*length*
+time=(width/widthMower)*length;
 time=((length*width)/widthMower)*length;
 finalPay=time*pay;
 System.out.println("The time it will take is "+time+" hours, and the amount you will get is "+pay+" dollars.");
