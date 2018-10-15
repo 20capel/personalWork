@@ -17,10 +17,10 @@ public void setWorker(int newNumberHours,double newRatePay){
 	numberHours=newNumberHours;
 	ratePay=newRatePay;
 }
-public int getHours(int newNumberHours){
+public int getHours(){
 	return numberHours;
 }
-public double getRate(double ratePay){
+public double getRate(){
 	return ratePay;
 }
 public double payCheck(){
