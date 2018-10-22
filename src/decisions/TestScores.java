@@ -13,9 +13,8 @@ double average=(test1+test2+test3)/3;
 if(average>=92.5){
 	System.out.println("congrats you have an A");
 }
-else{
-	if(average)
+
 }
 	}
 
-}
+
