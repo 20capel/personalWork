@@ -11,13 +11,4 @@ System.out.println("Enter an integer");
 int integer=input.nextInt();
 int largest=-50000;
 int smallest=50000;
-do{
-	if(integer>integer){
-		largest=newInteger;
-		smallest=integer;
-}while(integer!=9999);
-int range=largest-smallest;
-}
-	}
-
-}
+	}}
