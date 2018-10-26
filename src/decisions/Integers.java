@@ -34,13 +34,29 @@ if(hello<0){
 for(counter=1;counter<=hello;counter++){
 	System.out.println(counter+" Hello");
 }*/
-int counter=0;
+/*int counter=0;
 Scanner mathilda=new Scanner(System.in);
 System.out.println("What's your favorite number?");
 int fav=mathilda.nextInt();
 for(counter=1;counter<=10;counter++){
 	System.out.println(fav+" Hello");
+}*/
+/*int counter=0;
+int total=0;
+for(counter=1; counter<=10; counter++){
+	total=counter+total;
 }
+System.out.println(total);*/
+int counter=0;
+int number=0;
+int total=0;
+Scanner geranimo=new Scanner(System.in);
+for(counter=1;counter<=5;counter=counter+1){
+	System.out.println("Enter a number");
+	number=geranimo.nextInt();
+	total=number+total;
+}
+System.out.println(total);
 	}
 
 }
