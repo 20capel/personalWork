@@ -47,7 +47,7 @@ for(counter=1; counter<=10; counter++){
 	total=counter+total;
 }
 System.out.println(total);*/
-int counter=0;
+/*int counter=0;
 int number=0;
 int total=0;
 Scanner geranimo=new Scanner(System.in);
@@ -57,6 +57,36 @@ for(counter=1;counter<=5;counter=counter+1){
 	total=number+total;
 }
 System.out.println(total);
-	}
-
+	}*/
+/*int counter=0;
+int number=0;
+for(number=1; number<=4;number++){
+for(counter=1; counter<=5; counter++){
+	System.out.println(counter*number);
 }
+			}*/
+/*int counter=0;
+int number=0;
+for(number=1; number<=4;number++)
+for(counter=1;counter<=5;counter++){
+	if(counter!=3){
+	System.out.println(counter);}
+	else{
+		System.out.println(number);
+	}
+	
+}*/
+int divisors=0;	
+int divisors2=0;
+int counter=0;
+int number=1;
+for(counter=1;counter<=1000;counter++)
+for(counter=1;counter<=number; counter++){
+	if(number%counter==0)
+	divisors++;	
+	number++;
+	if(divisors<divisors2)
+		System.out.println(divisors2);
+	}
+System.out.println(divisors);
+}}
