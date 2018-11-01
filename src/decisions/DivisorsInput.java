@@ -19,9 +19,12 @@ for(counter=1;counter<=posInt;counter++){
 			divisors++;
 		}
 	if(divisors>mostDivisors){
+		mostDivisors=divisors;
 	largestInt=counter;
 	}
+	
 }
+
 }
 System.out.println(largestInt);
 	}
