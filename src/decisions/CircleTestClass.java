@@ -12,8 +12,12 @@ public class CircleTestClass {
 		CircleClass bob = new CircleClass();
 		double comparison = 0.0;
 		do {
-			System.out.println("Enter radius of a circle");
-			double radius1 = albus.nextDouble();
+
+			if (counter < 3) {
+				System.out.println("Enter radius of a circle");
+
+				double radius1 = albus.nextDouble();
+			}
 			bob.changeRadius(radius1);
 			circumference = bob.circumference();
 			if (circumference > comparison) {
@@ -21,7 +25,7 @@ public class CircleTestClass {
 				counter++;
 			}
 		} while (counter <= 3);
-
+		System.out.println(comparison);
 	}
 
 }
