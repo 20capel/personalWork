@@ -18,7 +18,7 @@ public class CircleTestClass {
 
 				double radius1 = albus.nextDouble();
 			}
-			bob.changeRadius(radius 1);
+		
 			circumference = bob.circumference();
 			if (circumference > comparison) {
 				comparison = circumference;
