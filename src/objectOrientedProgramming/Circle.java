@@ -8,7 +8,10 @@ public class Circle {
 	}
 
 	public Circle(double nowRadius) {
-		radius = nowRadius;
+		if(nowRadius<=0){
+			nowRadius = 10;
+		}
+		radius=nowRadius;
 	}
 
 	public void setRadius(double nowRadius) {
