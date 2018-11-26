@@ -26,10 +26,6 @@ public class Story {
 		String firstWord = story.substring(0, story.indexOf(" "));
 		return firstWord;
 	}
-	public int find() {
-		int counter=0;
-		for(counter=0;counter<story.length();counter++) {
-			if
-		}
-	}
+	
+	
 }
