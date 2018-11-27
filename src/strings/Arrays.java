@@ -13,8 +13,8 @@ int largest=0;
 int randomNum=min+beyonce.nextInt(max-min+1);
 int counter=0;
 int counter2=5;
-double[] scores=new double[5];
-for(counter=0;counter<250;counter++){
+double[] scores=new double[250];
+for(counter=0;counter<scores.length;counter++){
 	scores[counter]=randomNum;
 	if(randomNum>largest){
 		largest=randomNum;
