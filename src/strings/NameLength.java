@@ -8,7 +8,7 @@ Scanner input=new Scanner(System.in);
 int numNames=5;
 String[] names=new String[numNames];
 System.out.println("Enter a length");
-int length=input.nextInt();//
+int length=input.nextInt();
 for(int counter=0;counter<names.length;counter++){
 	System.out.println("Enter a name");
 	names[counter]=input.nextLine();
