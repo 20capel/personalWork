@@ -16,7 +16,7 @@ for(int counter=0;counter<rectangle.length;counter++){
 	}
 	
 }
-System.out.println("Length: "+hundred.getLength()+"Width: "+hundred.getWidth());
+System.out.println("Length: ");
 	}
 
 }
