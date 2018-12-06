@@ -11,6 +11,10 @@ Friend mark=new Friend("mark",1);
 array.add(mark);
 Friend peter=new Friend("peter",3);
 array.add(peter);
+for(int counter=0;counter<array.size();counter++){
+	System.out.println(array.get(counter).getAge());
+}
+
 	}
 
 }
