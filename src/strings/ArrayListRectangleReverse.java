@@ -24,4 +24,4 @@ rectangle.set(0, bob);
 }
 	}
 
-}
+
