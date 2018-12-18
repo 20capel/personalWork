@@ -10,6 +10,6 @@ public static int sumNumbers(int num){
 	if(num>1){
 		return num+sumNumbers(num-1);
 	}
-	return 0;
+	return 1;
 }
 }
