@@ -11,5 +11,5 @@ public HardDriveDefinition(String xName,ArrayList xFileSizes,double xTotalCap,do
 	totalCap=xTotalCap;
 	freeSpace=xFreeSpace;
 	}
-public void addfile
+
 }
