@@ -1,6 +1,6 @@
 package strings;
 
-public class CircleClass
+public class CircleClass implements InterfaceName
 {
     private double radius;
     

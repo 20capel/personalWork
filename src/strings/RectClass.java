@@ -1,6 +1,6 @@
 package strings;
 
-public class RectClass {
+public class RectClass implements InterfaceName{
 	 private double length;
 	    private double width;
 	public RectClass()

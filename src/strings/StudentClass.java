@@ -1,6 +1,6 @@
 package strings;
 
-public class StudentClass {
+public class StudentClass implements InterfaceTeacherStudent{
 	String name;
 
 	int studentAge;
