@@ -1,6 +1,6 @@
 package strings;
 import java.util.ArrayList;
-public class Student {
+public class Student{
 	private String name;
 	private ArrayList<Integer>tests;
 	private int howMany;

@@ -1,6 +1,6 @@
 package strings;
 
-public class Teacher implements InterfaceTeacherStudent{
+public class Teacher implements Person{
 	String name;
 	int teacherAge;
 	boolean gender; //true = male
