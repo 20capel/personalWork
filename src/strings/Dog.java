@@ -2,7 +2,7 @@ package strings;
 
 import java.util.Random;
 
-public class Dog {
+public class Dog implements Animal{
 	private String name;
 	private int age;
 	private boolean injured;
