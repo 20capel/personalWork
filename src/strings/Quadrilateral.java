@@ -39,4 +39,11 @@ public double getS4(){
 public double perimeter(){
 	double perimeter=s1+s2+s3+s4;
 	return perimeter;
-}}
+}
+public String toString(){
+	return "Quadrilateral: perimeter= "+perimeter()+", side1= "+getS1()+", side2= "+getS2()+", side3= "+getS3()+", side4= "+getS4();
+}
+public boolean equals(Object xObject){
+	return this.toString().equals(xObject);
+}
+}

@@ -1,6 +1,6 @@
 package strings;
 
-public class RectangleClass extends Parallelogram implements Geo{
+public class RectangleClass extends Parallelogram implements Geo {
 public RectangleClass(){
 	super();
 }

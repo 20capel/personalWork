@@ -1,6 +1,6 @@
 package strings;
 
-public class Square extends Rectangle{
+public class Square extends RectangleClass{
 public Square(){
 	super();
 }

@@ -9,7 +9,7 @@ for(int i=0;i<5;i++){
 	shapes.add(new Trapezoid());
 }
 for(int i=0;i<5;i++){
-	shapes.add(new Rectangle());
+	shapes.add(new RectangleClass());
 }
 	}
 

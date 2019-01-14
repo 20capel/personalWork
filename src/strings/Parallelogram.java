@@ -16,4 +16,10 @@ public double perimeter(){
 public double area(){
 	return height*super.getS1();
 }
+public String toString(){
+	return "Parallelogram: height= "+height+", "+super.toString();
+}
+public boolean equals(Object xObject){
+	return super.equals(xObject);
+}
 }
