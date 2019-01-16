@@ -7,7 +7,7 @@ private int myId;
 private int randomInt;
 
 public static int returnSum(int one, int two){
-	return one+two;
+	return one+two;   
 }
 public PileOjunk(){
 	Random generator=new Random();
